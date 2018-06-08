@@ -9,5 +9,6 @@ fi
 
 
 #!/bin/sh
-echo $FT_LINE | wc -m | cut -c 8-
+# zsh strlen.sh
+echo -n $FT_LINE | wc -m | cut -c 8-
 #wc lines, words, bytes
